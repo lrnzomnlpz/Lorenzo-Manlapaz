@@ -1,24 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TURKMENISTAN</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Turkmenistan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800">
-    
-    <nav class="fixed top-0 left-0 w-full bg-blue-600 text-white px-6 py-4 shadow-md z-50">
-    <div class="flex justify-between items-center">
-      <h1 class="text-xl font-bold">J-A-B</h1>
-      <ul class="flex space-x-6">
-        <li><a href="#hobbies" class="hover:text-yellow-300">About</a></li>
-        <li><a href="#dream-places" class="hover:text-yellow-300">Spots</a></li>
-        <li><a href="#goals" class="hover:text-yellow-300">Gallery</a></li>
-        <li><a href="#aspirations" class="hover:text-yellow-300">Reviews</a></li>
-      </ul>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-green-700 text-white p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">TURKMENISTAN</h1>
+    <div class="flex space-x-6">
+      <a href="#home" class="hover:text-yellow-300">Home</a>
+      <a href="#geography" class="hover:text-yellow-300">Geography</a>
+      <a href="#culture" class="hover:text-yellow-300">Culture</a>
+      <a href="#food" class="hover:text-yellow-300">Cuisine</a>
+      <a href="#attractions" class="hover:text-yellow-300">Attractions</a>
     </div>
   </nav>
-  
+
+  <!-- Home -->
+  <section id="home" class="p-10 text-center">
+    <h2 class="text-3xl font-bold mb-4">Welcome to Turkmenistan</h2>
+    <p class="max-w-2xl mx-auto">
+      Turkmenistan, located in Central Asia, is known for its deserts, ancient cities, and unique culture. 
+      Explore its geography, traditions, food, and top attractions below.
+    </p>
+  </section>
+
+  <!-- Geography -->
+  <section id="geography" class="p-10">
+    <h2 class="text-2xl font-bold mb-4">Geography</h2>
+    <p>
+      Turkmenistan is dominated by the Karakum Desert, with the Caspian Sea to the west. 
+      The country experiences an arid climate with hot summers and cold winters. 
+      Its landscapes include deserts, mountains, and fertile valleys along rivers.
+    </p>
+  </section>
+
+  <!-- Culture -->
+  <section id="culture" class="p-10 bg-gray-100">
+    <h2 class="text-2xl font-bold mb-4">Culture</h2>
+    <p>
+      Turkmen culture is rooted in nomadic traditions, horse breeding, and carpet weaving. 
+      The Turkmen language is widely spoken, with Russian also used in urban areas. 
+      Festivals often celebrate music, dance, and the famous Akhal-Teke horses.
+    </p>
+  </section>
+
+  <!-- Cuisine -->
+  <section id="food" class="p-10">
+    <h2 class="text-2xl font-bold mb-4">Cuisine</h2>
+    <ul class="list-disc pl-6 space-y-2">
+      <li><strong>Plov:</strong> Rice dish with lamb and vegetables.</li>
+      <li><strong>Shurpa:</strong> Traditional meat and vegetable soup.</li>
+      <li><strong>Chorek:</strong> Round bread baked in clay ovens.</li>
+      <li><strong>Manty:</strong> Steamed dumplings filled with meat.</li>
+      <li><strong>Kebab:</strong> Grilled skewers of lamb or beef.</li>
+    </ul>
+  </section>
+
+  <!-- Attractions with Flexbox -->
+  <section id="attractions" class="p-10 bg-gray-100">
+    <h2 class="text-2xl font-bold mb-6 text-center">Top 5 Must-Visit Attractions</h2>
+    <div class="flex flex-wrap justify-center gap-6">
+      <div class="bg-white shadow p-4 w-64">
+        <h3 class="font-bold">Darvaza Gas Crater</h3>
+        <p>Known as the “Door to Hell,” this fiery crater has burned for decades and is a unique natural wonder.</p>
+      </div>
+      <div class="bg-white shadow p-4 w-64">
+        <h3 class="font-bold">Ashgabat</h3>
+        <p>The capital city, famous for its white marble buildings, modern architecture, and grand monuments.</p>
+      </div>
+      <div class="bg-white shadow p-4 w-64">
+        <h3 class="font-bold">Ancient Merv</h3>
+        <p>A UNESCO World Heritage site showcasing ruins of one of the oldest cities in Central Asia.</p>
+      </div>
+      <div class="bg-white shadow p-4 w-64">
+        <h3 class="font-bold">Karakum Desert</h3>
+        <p>Experience camel rides, nomadic traditions, and the vast desert landscape.</p>
+      </div>
+      <div class="bg-white shadow p-4 w-64">
+        <h3 class="font-bold">Kow Ata Underground Lake</h3>
+        <p>A natural thermal lake inside a cave, perfect for relaxation and exploration.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white text-center p-4 mt-10">
+    <p>&copy; 2026 Turkmenistan Explorer | Built with Tailwind CSS</p>
+  </footer>
+
 </body>
 </html>
